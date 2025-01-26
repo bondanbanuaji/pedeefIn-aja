@@ -2,8 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'New York Heavy';
+  src: url('/src/fonts/iOS 16 Fonts/New York - Heavy.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New York Semibold';
+  src: url('/src/fonts/iOS 16 Fonts/New York - Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Semibold Rails';
+  src: url('/src/fonts/iOS 16 Fonts/SF Pro - Semibold Rails.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Semibold Rounded';
+  src: url('/src/fonts/iOS 16 Fonts/SF Pro - Semibold Rounded.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Semibold Soft';
+  src: url('/src/fonts/iOS 16 Fonts/SF Pro - Semibold Soft.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Semibold Stencil';
+  src: url('/src/fonts/iOS 16 Fonts/SF Pro - Semibold Stencil.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Semibold';
+  src: url('/src/fonts/iOS 16 Fonts/SF Pro - Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'New York Heavy', 'SF Pro Semibold', 'SF Pro Semibold Rails', 'SF Pro Semibold Rounded', 'SF Pro Semibold Soft', 'SF Pro Semibold Stencil', Arial, sans-serif;
 }
 
 @layer base {

@@ -12,16 +12,16 @@ export default async function Home() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center">
-            <h1 className="mr-3 text-5xl font-semibold ">Nanya Bareng PedeefIn-aja</h1>
+            <h1 className="mr-3 text-5xl font-semibold">Nanya Bareng PedeefIn-aja</h1>
             <UserButton afterSignOutUrl="/" />
           </div>
-          <div className="flex mt-2">
+          <div className="flex mt-4">
             {isAuth && (
               <Button>Langsung Ngobrol</Button>
             )}
           </div>
-          <p className="max-w-xl mt-2 text-lg text-slate-600">
-            Nanya-nanya itu boleh, tapi yang penting jangan nanya yang aneh-aneh ya...
+          <p className="max-w-xl mt-4 text-lg text-slate-600">
+            Jangan Jadikan A.I Sebagai Pelampiasan Amarah dan Emosi, Ketika Kamu Lagi Galau. Gunakan A.I ini sebijak-bijaknya
           </p>
           <div className="w-full mt-4">
             {isAuth ? (<h1>fileupload</h1>
