@@ -27,8 +27,17 @@ export default async function Home() {
             {isAuth ? (<h1>fileupload</h1>
             ) : (
               <Link href="/sign-in">
-                <Button>Login untuk mulai
-                  <LogIn className="w-4 h-4 ml-2" />
+                <Button className="relative overflow-hidden text-gray-100 bg-black group">
+                  <span
+                    className="absolute inset-0 bg-gray-300 transition-all duration-500 ease-in-out transform -translate-x-full group-hover:translate-x-0"
+                    aria-hidden="true"
+                  ></span>
+                  <span
+                    className="relative transition duration-500 ease-in-out group-hover:text-black"
+                  >
+                    Login untuk mulai
+                  </span>
+                  <LogIn className="relative w-4 h-4 ml-2 transition duration-500 ease-in-out group-hover:text-black" />
                 </Button>
               </Link>
             )}
